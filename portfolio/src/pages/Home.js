@@ -11,6 +11,7 @@ export default function HomePage() {
             <div class="growinglinetwo"/>
             <div class="growinglinethree"/>
             <div class="growinglinefour"/>
+            <div class="growinglinefive"/>
         </div>
     )
 }
