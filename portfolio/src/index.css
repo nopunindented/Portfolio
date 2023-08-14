@@ -13,7 +13,96 @@ code {
 }
 
 .homebody{
+  position: absolute;
   background-color: #181818;
   height: 100%;
   width: 100%;
+}
+
+.umerportfolio{
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  font-size: 2.5vh;
+  font-family: 'Carme';
+  color: white;
+}
+
+.projectsheader{
+  position: absolute;
+  top: 4.2%;
+  left: 27.5%;
+  font-size: 3.5vh;
+  font-family: 'Carme';
+  color: #9F9D9D;
+}
+
+.technologiesheader{
+  position: absolute;
+  top: 4.2%;
+  left: 44%;
+  font-size: 3.5vh;
+  font-family: 'Carme';
+  color: #9F9D9D;
+}
+
+.workexpheader{
+  position: absolute;
+  top: 4.2%;
+  left: 62%;
+  font-size: 3.5vh;
+  font-family: 'Carme';
+  color: #9F9D9D;
+}
+
+
+.growinglineone {
+  width: 0.2%;
+  top: 20%;
+  left: 20%;
+  height: 0;
+  background-color: #ffffff;
+  animation: growLine 1.5s ease forwards;
+  position: absolute;
+  bottom: 0;
+  transform-origin: bottom;
+}
+
+@keyframes growLine {
+  to {
+      height: 60%;
+      transform: scaleY(1);
+  }
+}
+
+.growinglinetwo {
+  width: 0.2%;
+  bottom: 20%; /* Adjust the bottom position to start from the bottom */
+  left: 60%;
+  height: 0;
+  background-color: #ffffff;
+  animation: growLine 1.5s ease forwards;
+  position: absolute;
+  transform-origin: bottom; /* Keep the transformation origin at the bottom */
+}
+
+@keyframes growLine {
+  to {
+    height: 60%;
+    transform: scaleY(1);
+  }
+}
+
+.growinglinethree {
+  width: 0;
+  height: 2px;
+  background-color: #ffffff; /* You can change the color to your preference */
+  animation: growLineTwice 2s ease forwards; /* Adjust the duration for the growing animation */
+  position: relative;
+}
+
+@keyframes growLineTwice {
+  to {
+      width: 100%;
+  }
 }
