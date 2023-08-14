@@ -78,7 +78,7 @@ code {
 .growinglinetwo {
   width: 0.2%;
   bottom: 20%; /* Adjust the bottom position to start from the bottom */
-  left: 60%;
+  left: 70%;
   height: 0;
   background-color: #ffffff;
   animation: growLine 1.5s ease forwards;
@@ -95,14 +95,35 @@ code {
 
 .growinglinethree {
   width: 0;
-  height: 2px;
+  height: 0.2%;
+  top: 20%;
+  left: 20%;
   background-color: #ffffff; /* You can change the color to your preference */
-  animation: growLineTwice 2s ease forwards; /* Adjust the duration for the growing animation */
-  position: relative;
+  animation: growLineTwice 1.5s ease forwards; /* Adjust the duration for the growing animation */
+  position: absolute;
 }
 
 @keyframes growLineTwice {
   to {
-      width: 100%;
+      width: 50%;
+  }
+  
+}
+
+.growinglinefour {
+  width: 0;
+  height: 0.2%;
+  top: 80%;
+  right: 29.8%; /* Adjust the right position to start from the right */
+  background-color: #ffffff; /* You can change the color to your preference */
+  animation: growLineThrice 1.5s ease forwards; /* Adjust the duration for the growing animation */
+  position: absolute;
+  transform: rotate(0deg); /* Set the initial rotation to 0 degrees */
+  transform-origin: top right; /* Set the transformation origin to the top right corner */
+}
+
+@keyframes growLineThrice {
+  to {
+    width: 50.2%;
   }
 }
