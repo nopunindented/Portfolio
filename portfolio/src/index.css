@@ -145,3 +145,31 @@ code {
     transform: scaleY(1);
   }
 }
+
+.hi{
+  position: absolute;
+  font-family: 'Capriola';
+  font-size: 9vh;
+  color: #ffffff;
+  left: 23%;
+  top: 23%;
+}
+
+.iamumer{
+  position: absolute;
+  font-family: 'Carme';
+  font-size: 7vh;
+  color: #ffffff;
+  left: 23.19%;
+  top: 39.5%;
+}
+
+.mydescription{
+  position: absolute;
+  font-family: 'Carme';
+  font-size: 3.3vh;
+  color: #9F9D9D;
+  left: 23.3%;
+  top: 49.5%;
+  width: 28vw;
+}
