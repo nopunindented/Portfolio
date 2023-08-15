@@ -5,20 +5,7 @@ import {Link} from 'react-router-dom';
 import Zoom from '@mui/material/Zoom'
 import linkedinlogo from './homeimages/linkedin.svg'
 import emailicon from './homeimages/emailicon.svg'
-
-const ButtonMailto = ({ mailto, label }) => {
-    return (
-        <Link
-            to='#'
-            onClick={(e) => {
-                window.location.href = mailto;
-                e.preventDefault();
-            }}
-        >
-            {label}
-        </Link>
-    );
-};
+import ThemeSong from "./themesong";
 
 export default function HomePage() {
     return(
@@ -95,6 +82,7 @@ export default function HomePage() {
             <img src={emailicon} className="emailicon" alt="githublogo" />
             </Zoom>
             </Link>
+            <ThemeSong />
             
         </div>
     )
