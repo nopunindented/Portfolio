@@ -62,7 +62,7 @@ code {
   left: 20%;
   height: 0;
   background-color: #ffffff;
-  animation: growLine 1.3s ease forwards;
+  animation: growLine 1.2s ease forwards;
   position: absolute;
   bottom: 0;
   transform-origin: bottom;
@@ -81,7 +81,7 @@ code {
   left: 70%;
   height: 0;
   background-color: #ffffff;
-  animation: growLine 1.3s ease forwards;
+  animation: growLine 1.2s ease forwards;
   position: absolute;
   transform-origin: bottom; /* Keep the transformation origin at the bottom */
 }
@@ -99,7 +99,7 @@ code {
   top: 20%;
   left: 20%;
   background-color: #ffffff; /* You can change the color to your preference */
-  animation: growLineTwice 1.1s ease forwards; /* Adjust the duration for the growing animation */
+  animation: growLineTwice 1s ease forwards; /* Adjust the duration for the growing animation */
   position: absolute;
 }
 
@@ -116,7 +116,7 @@ code {
   top: 80%;
   right: 29.8%; /* Adjust the right position to start from the right */
   background-color: #ffffff; /* You can change the color to your preference */
-  animation: growLineThrice 1.1s ease forwards; /* Adjust the duration for the growing animation */
+  animation: growLineThrice 1s ease forwards; /* Adjust the duration for the growing animation */
   position: absolute;
   transform: rotate(0deg); /* Set the initial rotation to 0 degrees */
   transform-origin: top right; /* Set the transformation origin to the top right corner */
@@ -172,4 +172,28 @@ code {
   left: 23.3%;
   top: 49.5%;
   width: 28vw;
+}
+
+.gitlogo{
+  position: absolute;
+  height: 7%;
+  width: 5%;
+  top: 58.5%;
+  left: 3.57%;
+}
+
+.linkedinlogo{
+  position: absolute;
+  height: 6%;
+  width: 5%;
+  top: 50.5%;
+  left: 3.57%;
+}
+
+.emailicon{
+  position: absolute;
+  height: 5.5%;
+  width: 5%;
+  top: 42.5%;
+  left: 3.57%;
 }

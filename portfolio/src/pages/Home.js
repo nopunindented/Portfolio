@@ -1,5 +1,10 @@
 import React from "react";
 import Slide from '@mui/material/Slide';
+import gitlogo from './homeimages/gitcat.svg'
+import {Link} from 'react-router-dom';
+import Zoom from '@mui/material/Zoom'
+import linkedinlogo from './homeimages/linkedin.svg'
+import emailicon from './homeimages/emailicon.svg'
 
 export default function HomePage() {
     return(
@@ -50,11 +55,33 @@ export default function HomePage() {
             direction="up"
             timeout={700}>
             <p className= 'mydescription'>
-                I'm a 3rd year software engineering student
+                I'm a 3rd year undergraduate software engineering student
                 at the University of Alberta.
                 I enjoy creating applications that tackle social problems, help university students & clubs, or are just cool in general :)
             </p>
             </Slide>
+            <Link to="https://github.com/nopunindented">
+            <Zoom 
+            in={true}
+            timeout={1000}>
+            <img src={gitlogo} className="gitlogo" alt="githublogo" />
+            </Zoom>
+            </Link>
+            <Link to="https://www.linkedin.com/in/umer-fiaz/">
+            <Zoom 
+            in={true}
+            timeout={1000}>
+            <img src={linkedinlogo} className="linkedinlogo" alt="githublogo" />
+            </Zoom>
+            </Link>
+            <Link onClick={(e) => {window.location.href ='mailto:mufiaz@ualberta.ca';}}>
+            <Zoom 
+            in={true}
+            timeout={1000}>
+            <img src={emailicon} className="emailicon" alt="githublogo" />
+            </Zoom>
+            </Link>
+            
         </div>
     )
 }
