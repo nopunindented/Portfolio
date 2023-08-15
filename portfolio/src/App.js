@@ -4,6 +4,7 @@ import TechnologyPage from './pages/Technologies';
 import HomePage from './pages/Home';
 import WorkPage from './pages/Work';
 import ErrorPage from './pages/Errorpage';
+import ThemeSong from './pages/themesong';
 
 
 function App() {
