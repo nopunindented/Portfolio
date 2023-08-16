@@ -1,25 +1,35 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import mytheme from './homeimages/mytheme.mp3';
-import { useState, useRef } from 'react';
+import music from './homeimages/music.svg';
+
+function ClickIcon() {
+  return <div key={Date.now()} className="circle pulse"></div>;
+}
 
 export default function ThemeSong() {
-    const [playing, setPlaying] = useState(false);
-    const audioRef = useRef(new Audio(mytheme));
-  
-    const handlePlayButtonClick = () => {
-      const audio = audioRef.current;
-  
-      if (playing) {
-        audio.pause();
-      } else {
-        audio.play();
-      }
-      setPlaying(!playing);
-    };
-  
-    return (
-      <div>
-        <button onClick={handlePlayButtonClick} />
+  const [playing, setPlaying] = useState(false);
+  const [clicked, SetClicked]= useState(false);
+  const audioRef = useRef(new Audio(mytheme));
+
+  const handlePlayButtonClick = () => {
+    const audio = audioRef.current;
+
+    if (playing) {
+      audio.pause();
+    } else {
+      audio.play();
+    }
+
+    setPlaying(!playing);
+    SetClicked(true)
+  };
+
+  return (
+    <div>
+      <div onClick={handlePlayButtonClick}>
+        {clicked && <ClickIcon />}
+        <img src={music} className='musicicon' alt="hello" />
       </div>
-    );
-  }
+    </div>
+  );
+}
