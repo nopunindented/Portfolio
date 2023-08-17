@@ -17,6 +17,7 @@ code {
   background-color: #181818;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 .umerportfolio{
@@ -201,14 +202,17 @@ code {
 .musicicon{
   position: absolute;
   top: 4%;
-  left: 80%;
+  left: 87%;
+  height: 5%;
 }
 
 .circle {
-  width: 35px;
-  height: 35px;
+  position: absolute;
+  left: 86.4%;
+  width: 3.5%;
+  height: 6.8%;
+  top: 3%;
   border-radius: 50%;
-  box-shadow: 0px 0px 1px 1px #0000001a;
 }
 
 .pulse {
