@@ -38,6 +38,29 @@ code {
   color: #9F9D9D;
 }
 
+@media (max-width: 768px){
+  .projectsheader{
+    position: absolute;
+    top: 4.2%;
+    left: 27.5%;
+    font-size: 3vh;
+    font-family: 'Carme';
+    color: #9F9D9D;
+  }
+}
+
+@media (max-width: 1440px){
+  .mydescription{
+    position: absolute;
+    font-family: 'Carme';
+    font-size: 3vh;
+    color: #9F9D9D;
+    left: 23.3%;
+    top: 49.5%;
+    width: 35vw;
+    }
+}
+
 .technologiesheader{
   position: absolute;
   top: 4.2%;
@@ -47,6 +70,17 @@ code {
   color: #9F9D9D;
 }
 
+@media (max-width: 768px){
+  .technologiesheader{
+    position: absolute;
+    top: 4.2%;
+    left: 43.8%;
+    font-size: 3vh;
+    font-family: 'Carme';
+    color: #9F9D9D;
+  }
+}
+
 .workexpheader{
   position: absolute;
   top: 4.2%;
@@ -54,6 +88,17 @@ code {
   font-size: 3.5vh;
   font-family: 'Carme';
   color: #9F9D9D;
+}
+
+@media (max-width: 768px){
+  .workexpheader{
+    position: absolute;
+    top: 4.2%;
+    left: 64%;
+    font-size: 3vh;
+    font-family: 'Carme';
+    color: #9F9D9D;
+  }
 }
 
 
@@ -175,6 +220,18 @@ code {
   width: 28vw;
 }
 
+@media (max-width: 1440px){
+  .mydescription{
+    position: absolute;
+    font-family: 'Carme';
+    font-size: 3vh;
+    color: #9F9D9D;
+    left: 23.3%;
+    top: 49.5%;
+    width: 35vw;
+    }
+}
+
 .gitlogo{
   position: absolute;
   height: 7%;
@@ -206,6 +263,15 @@ code {
   height: 5%;
 }
 
+@media (max-width: 768px){
+  .musicicon{
+    position: absolute;
+    top: 4%;
+    left: 91%;
+    height: 5%;
+  }
+}
+
 .circle {
   position: absolute;
   left: 86.4%;
@@ -213,6 +279,17 @@ code {
   height: 6.8%;
   top: 3%;
   border-radius: 50%;
+}
+
+@media (max-width: 768px){
+  .circle {
+    position: absolute;
+    left: 90.2%;
+    width: 5.7%;
+    height: 7.4%;
+    top: 3%;
+    border-radius: 50%;
+  }
 }
 
 .pulse {
