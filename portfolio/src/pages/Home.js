@@ -16,24 +16,30 @@ export default function HomePage() {
             timeout={400}>
             <div className="umerportfolio">Umer's Portfolio</div>
             </Slide>
+            <Link to= 'projects'>
             <Slide 
             in={true}
             direction="down"
             timeout={400}>
             <div className="projectsheader">Projects</div>
             </Slide>
+            </Link>
+            <Link to= 'technologies'>
             <Slide 
             in={true}
             direction="down"
             timeout={400}>
             <div className="technologiesheader">Technologies</div>
             </Slide>
+            </Link>
+            <Link to= 'work'>
             <Slide 
             in={true}
             direction="down"
             timeout={400}>
             <div className="workexpheader">Work Experience</div>
             </Slide>
+            </Link>
             <div class="growinglineone"/>
             <div class="growinglinetwo"/>
             <div class="growinglinethree"/>
