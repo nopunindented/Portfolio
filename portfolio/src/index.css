@@ -126,16 +126,42 @@ code {
   bottom: 20%; /* Adjust the bottom position to start from the bottom */
   left: 70%;
   height: 0;
-  background-color: #ffffff;
-  animation: growLine 1.2s ease forwards;
+  background-color: hsl(0, 0%, 100%);
+  animation: growLineRight 1.2s ease forwards;
   position: absolute;
   transform-origin: bottom; /* Keep the transformation origin at the bottom */
 }
 
-@keyframes growLine {
+@keyframes growLineRight {
   to {
     height: 60%;
     transform: scaleY(1);
+  }
+}
+
+@media (max-width: 760px){
+  .growinglinetwo {
+    width: 0.2%;
+    bottom: 20%; /* Adjust the bottom position to start from the bottom */
+    left: 80%;
+    height: 0;
+    background-color: hsl(0, 0%, 100%);
+    animation: growLineRight 1.2s ease forwards;
+    position: absolute;
+    transform-origin: bottom; /* Keep the transformation origin at the bottom */
+  }
+}
+
+@media (max-width: 620px){
+  .growinglinetwo {
+    width: 0.2%;
+    bottom: 20%; /* Adjust the bottom position to start from the bottom */
+    left: 94%;
+    height: 0;
+    background-color: hsl(0, 0%, 100%);
+    animation: growLineRight 1.2s ease forwards;
+    position: absolute;
+    transform-origin: bottom; /* Keep the transformation origin at the bottom */
   }
 }
 
@@ -156,6 +182,24 @@ code {
   
 }
 
+@media (max-width: 760px){
+  @keyframes growLineTwice {
+    to {
+        width: 60%;
+    }
+    
+  }
+}
+
+@media (max-width: 620px){
+  @keyframes growLineTwice {
+    to {
+        width: 74%;
+    }
+    
+  }
+}
+
 .growinglinefour {
   width: 0;
   height: 0.2%;
@@ -171,6 +215,44 @@ code {
 @keyframes growLineThrice {
   to {
     width: 50.2%;
+  }
+}
+
+@media (max-width: 760px){
+  .growinglinefour {
+    width: 0;
+    height: 0.2%;
+    top: 80%;
+    right: 19.8%; /* Adjust the right position to start from the right */
+    background-color: #ffffff; /* You can change the color to your preference */
+    animation: growLineThrice 1s ease forwards; /* Adjust the duration for the growing animation */
+    position: absolute;
+    transform: rotate(0deg); /* Set the initial rotation to 0 degrees */
+    transform-origin: top right; /* Set the transformation origin to the top right corner */
+  }
+  @keyframes growLineThrice {
+    to {
+      width: 60.19%;
+    }
+  }
+}
+
+@media (max-width: 620px){
+  .growinglinefour {
+    width: 0;
+    height: 0.2%;
+    top: 80%;
+    right: 5.8%;
+    background-color: #ffffff;
+    animation: growLineThrice 1s ease forwards;
+    position: absolute;
+    transform: rotate(0deg);
+    transform-origin: top right;
+  }
+  @keyframes growLineThrice {
+    to {
+      width: 74.2%;
+    }
   }
 }
 
@@ -232,6 +314,30 @@ code {
     }
 }
 
+@media (max-width: 760px){
+  .mydescription{
+    position: absolute;
+    font-family: 'Carme';
+    font-size: 2.7vh;
+    color: #9F9D9D;
+    left: 23.3%;
+    top: 49.5%;
+    width: 40vw;
+    }
+}
+
+@media (max-width: 620px){
+  .mydescription{
+    position: absolute;
+    font-family: 'Carme';
+    font-size: 2.55vh;
+    color: #9F9D9D;
+    left: 23.3%;
+    top: 49.5%;
+    width: 52vw;
+    }
+}
+
 .gitlogo{
   position: absolute;
   height: 7%;
@@ -266,9 +372,18 @@ code {
 @media (max-width: 768px){
   .musicicon{
     position: absolute;
+    top: 3%;
+    left: 92%;
+    height: 4.5%;
+  }
+}
+
+@media (max-width: 620px){
+  .musicicon{
+    position: absolute;
     top: 4%;
-    left: 91%;
-    height: 5%;
+    left: 94%;
+    height: 4%;
   }
 }
 
@@ -284,10 +399,10 @@ code {
 @media (max-width: 768px){
   .circle {
     position: absolute;
-    left: 90.2%;
+    left: 90.8%;
     width: 5.7%;
-    height: 7.4%;
-    top: 3%;
+    height: 6.5%;
+    top: 2%;
     border-radius: 50%;
   }
 }
@@ -302,5 +417,24 @@ code {
   }
   100% {
     box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+
+@media (max-width: 620px){
+  .circle {
+    position: absolute;
+    left: 92.9%;
+    width: 6%;
+    height: 5.8%;
+    top: 3.1%;
+    border-radius: 50%;
+  }
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 12px rgba(0, 0, 0, 0);
+    }
   }
 }
