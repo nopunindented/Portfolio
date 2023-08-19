@@ -29,6 +29,17 @@ code {
   color: white;
 }
 
+@media (max-width: 620px){
+  .umerportfolio{
+    position: absolute;
+    top: 5%;
+    left: 1.5%;
+    font-size: 2.1vh;
+    font-family: 'Carme';
+    color: white;
+  }
+}
+
 .projectsheader{
   position: absolute;
   top: 4.2%;
@@ -44,6 +55,17 @@ code {
     top: 4.2%;
     left: 27.5%;
     font-size: 3vh;
+    font-family: 'Carme';
+    color: #9F9D9D;
+  }
+}
+
+@media (max-width: 620px){
+  .projectsheader{
+    position: absolute;
+    top: 5%;
+    left: 29%;
+    font-size: 2.1vh;
     font-family: 'Carme';
     color: #9F9D9D;
   }
@@ -81,6 +103,17 @@ code {
   }
 }
 
+@media (max-width: 620px){
+  .technologiesheader{
+    position: absolute;
+    top: 5%;
+    left: 43.8%;
+    font-size: 2.1vh;
+    font-family: 'Carme';
+    color: #9F9D9D;
+  }
+}
+
 .workexpheader{
   position: absolute;
   top: 4.2%;
@@ -96,6 +129,17 @@ code {
     top: 4.2%;
     left: 64%;
     font-size: 3vh;
+    font-family: 'Carme';
+    color: #9F9D9D;
+  }
+}
+
+@media (max-width: 620px){
+  .workexpheader{
+    position: absolute;
+    top: 5%;
+    left: 66%;
+    font-size: 2vh;
     font-family: 'Carme';
     color: #9F9D9D;
   }
@@ -334,7 +378,7 @@ code {
     color: #9F9D9D;
     left: 23.3%;
     top: 49.5%;
-    width: 52vw;
+    width: 60vw;
     }
 }
 
