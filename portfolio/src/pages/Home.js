@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Slide from '@mui/material/Slide';
 import gitlogo from './homeimages/gitcat.svg'
-import {Link} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import Zoom from '@mui/material/Zoom'
 import linkedinlogo from './homeimages/linkedin.svg'
 import emailicon from './homeimages/emailicon.svg'
 import ThemeSong from "./themesong";
 
 export default function HomePage() {
+    const navigate= useNavigate();
+    useEffect(() => {
+        document.onkeydown = (e) => {
+          if (e.key === "ArrowDown") {
+            navigate('/projects')
+          }
+        };
+      }, []);
+
     return(
         <div className="homebody">
             <Slide 
