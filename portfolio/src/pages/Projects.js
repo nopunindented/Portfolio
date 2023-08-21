@@ -13,6 +13,9 @@ export default function ProjectPage() {
             <div className="reactskillthrift">React</div>
             <div className="nodeskillthrift">Node.js</div>
             <div className="typescriptskillthrift">TypeScript</div>
+            <div className="mongodbskillthrift">MongoDB</div>
+            <div className="jwtauthskillthrift">JWT Authentication</div>
+            
         </div>
 
         </div>
