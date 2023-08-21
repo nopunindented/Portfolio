@@ -15,7 +15,7 @@ export default function HomePage() {
             navigate('/projects')
           }
         };
-      }, []);
+      }, [navigate]);
 
     return(
         <div className="homebody">
