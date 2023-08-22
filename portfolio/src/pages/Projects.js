@@ -15,7 +15,10 @@ export default function ProjectPage() {
             <div className="typescriptskillthrift">TypeScript</div>
             <div className="mongodbskillthrift">MongoDB</div>
             <div className="jwtauthskillthrift">JWT Authentication</div>
-            
+            <div className="reduxskillthrift">Redux</div>
+            <div className="expressskillthrift">Express</div>
+            <div className="awsskillthrift">AWS</div>
+
         </div>
 
         </div>
