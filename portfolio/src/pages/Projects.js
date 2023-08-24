@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import ThemeSong from "./themesong";
+import thriftaidphoto from "./projectimages/thriftaidphoto.png"
 
 
 export default function ProjectPage() {
@@ -8,13 +9,13 @@ export default function ProjectPage() {
 
     return(
         <div>
-
             <div
             className="thriftaidproject"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             >
             <div className={`thriftaidbox ${isHovered ? 'hovered' : ''}`} />
+            <img src={thriftaidphoto} alt='project image' className="thriftaidphoto"/>
             <div className="thriftaidboxsecondary" />
             <div className={`projectnamethrift ${isHovered ? 'hovered' : ''}`}>ThriftAid</div>
             <div className={`reactskillthrift ${isHovered ? 'hovered' : ''}`}>React</div>
