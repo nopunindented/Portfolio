@@ -9,7 +9,7 @@ export default function ProjectPage() {
         setIsHovered(true);
         setTimeout(() => {
             setShowHello(true);
-        }, 200);
+        }, 0);
     };
 
     const handleMouseLeave = () => {
@@ -24,9 +24,10 @@ export default function ProjectPage() {
                 onMouseEnter={handleHover}
                 onMouseLeave={handleMouseLeave}
             >
-                <div className={`thriftaidbox ${isHovered ? 'hovered' : ''}`}/>
+                <div className={`thriftaidbox ${isHovered ? 'hovered' : ''}`}>
                 {isHovered && <h1 className="check">ThriftAid is a platform that links homeless shelters with thrift. Thrift stores can donate 
                     excess stock by creating postings which homeless shelters may choose to accept.</h1>}
+                </div>
                 <img src={thriftaidphoto} alt='project image' className="thriftaidphoto" />
                 <div className="thriftaidboxsecondary" />
                 <div className={`projectnamethrift ${isHovered ? 'hovered' : ''}`}>ThriftAid</div>

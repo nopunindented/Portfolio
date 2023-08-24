@@ -487,6 +487,10 @@ code {
   overflow: hidden;
 }
 
+.thriftaidproject{
+  overflow: hidden;
+}
+
 .thriftaidbox{
 
 box-sizing: border-box;
