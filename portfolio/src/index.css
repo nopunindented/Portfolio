@@ -483,6 +483,10 @@ code {
   }
 }
 
+.projectspage{
+  overflow: hidden;
+}
+
 .thriftaidbox{
 
 box-sizing: border-box;
@@ -495,6 +499,7 @@ top: 27.5%;
 border: 1px solid rgba(0, 0, 0, 0.7);
 border-radius: 2%;
 filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
+overflow: hidden;
 
 }
 
@@ -511,6 +516,7 @@ filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
   border-radius: 2%;
   filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
   background-color: #000000;
+  overflow: hidden;
 }
 
 @keyframes growBoxDown {
@@ -532,6 +538,7 @@ filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
   border: 1px solid #000000;
   transform-origin: top;
   border-radius: 10px;
+  overflow: hidden;
 
 }
 
@@ -797,4 +804,17 @@ filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
   top: 30.5%;
   left: 29%;
   border-radius: 10px;
+  overflow: hidden;
+}
+
+.check{
+  position: absolute;
+  top: 70%;
+  left: 27.5%;
+  width: 20vw;
+  height: 40%;
+  font-size: 2vh;
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
 }
