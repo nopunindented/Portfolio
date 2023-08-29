@@ -432,6 +432,32 @@ code {
   }
 }
 
+@media (max-width: 620px){
+  .emailicon{
+    position: absolute;
+    height: 5.5%;
+    width: 14%;
+    top: 82%;
+    left: 39.57%;
+  }
+
+  .linkedinlogo{
+    position: absolute;
+    height: 5%;
+    width: 14%;
+    top: 82%;
+    left: 52.57%;
+  }
+
+  .gitlogo{
+    position: absolute;
+    height: 6.5%;
+    width: 14%;
+    top: 81%;
+    left: 64.57%;
+  }
+}
+
 .musicicon{
   position: absolute;
   top: 4%;
