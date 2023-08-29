@@ -18,7 +18,8 @@ export default function HomePage() {
       }, [navigate]);
 
     return(
-        <div className="homebody">
+      <div>
+        <div className="homebody" />
             <Slide 
             in={true}
             direction="down"
@@ -53,7 +54,6 @@ export default function HomePage() {
             <div class="growinglinetwo"/>
             <div class="growinglinethree"/>
             <div class="growinglinefour"/>
-            <div class="growinglinefive"/>
             <Slide 
             in={true}
             direction="up"
