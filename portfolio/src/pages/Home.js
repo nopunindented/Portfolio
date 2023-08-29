@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Slide from '@mui/material/Slide';
 import gitlogo from './homeimages/gitcat.svg'
 import {Link, useNavigate} from 'react-router-dom';
@@ -9,13 +9,15 @@ import ThemeSong from "./themesong";
 
 export default function HomePage() {
     const navigate= useNavigate();
-    useEffect(() => {
-        document.onkeydown = (e) => {
-          if (e.key === "ArrowDown") {
-            navigate('/projects')
-          }
-        };
-      }, [navigate]);
+    const [isHovered, setIsHovered] = useState(false);
+
+    const handleHover = () => {
+      setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+      setIsHovered(false);
+  };
 
     return(
       <div>
@@ -97,6 +99,14 @@ export default function HomePage() {
             <img src={emailicon} className="emailicon" alt="githublogo" />
             </Zoom>
             </Link>
+            <div className="sidebar"
+            onMouseEnter={handleHover}
+            onMouseLeave={handleMouseLeave}
+            >
+              <div className={`sideline1 ${isHovered ? 'hovered' : ''}`}/>
+              <div className="sideline2" />
+              <div className="sideline3" />
+            </div>
             <ThemeSong />
             
         </div>

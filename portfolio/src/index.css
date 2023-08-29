@@ -459,7 +459,7 @@ code {
 }
 
 .musicicon{
-  position: absolute;
+  position: fixed;
   top: 4%;
   left: 87%;
   height: 5%;
@@ -467,7 +467,7 @@ code {
 
 @media (max-width: 768px){
   .musicicon{
-    position: absolute;
+    position: fixed;
     top: 3%;
     left: 92%;
     height: 4.5%;
@@ -476,7 +476,7 @@ code {
 
 @media (max-width: 620px){
   .musicicon{
-    position: absolute;
+    position: fixed;
     top: 4%;
     left: 94%;
     height: 4%;
@@ -484,7 +484,7 @@ code {
 }
 
 .circle {
-  position: absolute;
+  position: fixed;
   left: 86.4%;
   width: 3.5%;
   height: 6.8%;
@@ -494,7 +494,7 @@ code {
 
 @media (max-width: 768px){
   .circle {
-    position: absolute;
+    position: fixed;
     left: 90.8%;
     width: 5.7%;
     height: 6.5%;
@@ -518,7 +518,7 @@ code {
 
 @media (max-width: 620px){
   .circle {
-    position: absolute;
+    position: fixed;
     left: 92.9%;
     width: 6%;
     height: 5.8%;
@@ -873,4 +873,34 @@ overflow: hidden;
   color: #ffffff;
   text-align: center;
   overflow: hidden;
+}
+
+.sideline1{
+  width: 1.5%;
+  top: 4.5%;
+  left: 93%;
+  height: 0.2%;
+  background-color: #ffffff;
+  animation: upLine 1.2s ease forwards;
+  position: fixed;
+}
+
+.sideline2{
+  width: 1.5%;
+  top: 5.7%;
+  left: 93%;
+  height: 0.2%;
+  background-color: #ffffff;
+  animation: upLine 1.2s ease forwards;
+  position: fixed;
+}
+
+.sideline3{
+  width: 1.5%;
+  top: 6.9%;
+  left: 93%;
+  height: 0.2%;
+  background-color: #ffffff;
+  animation: upLine 1.2s ease forwards;
+  position: fixed;
 }
