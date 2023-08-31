@@ -6,10 +6,12 @@ import Zoom from '@mui/material/Zoom'
 import linkedinlogo from './homeimages/linkedin.svg'
 import emailicon from './homeimages/emailicon.svg'
 import ThemeSong from "./themesong";
+import thriftaidphoto from "./projectimages/thriftaidphoto.png"
 
 export default function HomePage() {
     const navigate= useNavigate();
     const [isHovered, setIsHovered] = useState(false);
+    const [isOpen, setOpen] = useState(false)
 
     const handleHover = () => {
       setIsHovered(true);
@@ -99,16 +101,29 @@ export default function HomePage() {
             <img src={emailicon} className="emailicon" alt="githublogo" />
             </Zoom>
             </Link>
-            <div className="sidebar"
-            onMouseEnter={handleHover}
-            onMouseLeave={handleMouseLeave}
-            >
-              <div className={`sideline1 ${isHovered ? 'hovered' : ''}`}/>
-              <div className="sideline2" />
-              <div className="sideline3" />
-            </div>
             <ThemeSong />
-            
+            <div className="projectheader">Projects</div>
+            <div
+                className="thriftaidproject"
+                onMouseEnter={handleHover}
+                onMouseLeave={handleMouseLeave}
+            >
+                <div className={`thriftaidbox ${isHovered ? 'hovered' : ''}`}>
+                </div>
+                <img src={thriftaidphoto} alt='project image' className="thriftaidphoto" />
+                <div className="thriftaidboxsecondary" />
+                <div className={`projectnamethrift ${isHovered ? 'hovered' : ''}`}>ThriftAid</div>
+                <div className={`reactskillthrift ${isHovered ? 'hovered' : ''}`}>React</div>
+                <div className={`nodeskillthrift ${isHovered ? 'hovered' : ''}`}>Node.js</div>
+                <div className={`typescriptskillthrift ${isHovered ? 'hovered' : ''}`}>TypeScript</div>
+                <div className={`mongodbskillthrift ${isHovered ? 'hovered' : ''}`}>MongoDB</div>
+                <div className={`jwtauthskillthrift ${isHovered ? 'hovered' : ''}`}>JWT Authentication</div>
+                <div className={`reduxskillthrift ${isHovered ? 'hovered' : ''}`}>Redux</div>
+                <div className={`expressskillthrift ${isHovered ? 'hovered' : ''}`}>Express</div>
+                <div className={`awsskillthrift ${isHovered ? 'hovered' : ''}`}>AWS</div>
+                <h1 className={`check ${isHovered ? 'hovered' : ''}`}>ThriftAid is a platform that links homeless shelters with thrift. Thrift stores can donate 
+                    excess stock by creating postings which homeless shelters may choose to accept.</h1>
+            </div>
         </div>
     )
 }

@@ -17,7 +17,7 @@ code {
   background-color: #181818;
   height: 400%;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .umerportfolio{
@@ -543,21 +543,18 @@ code {
   overflow: hidden;
 }
 
-.thriftaidbox{
-
-box-sizing: border-box;
-
-position: absolute;
-width: 20%;
-height: 39%;
-left: 27.5%;
-top: 27.5%;
-border: 1px solid rgba(0, 0, 0, 0.7);
-border-radius: 2%;
-filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
-overflow: hidden;
-
+.thriftaidbox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 20%;
+  height: 39%;
+  left: 25.5%;
+  top: 147.5%;
+  border-radius: 2%;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3);
 }
+
 
 .thriftaidbox.hovered {
   /* Your styles for the hover effect */
@@ -565,14 +562,12 @@ overflow: hidden;
   position: absolute;
   width: 20%;
   height: 39%;
-  left: 27.5%;
-  top: 27.5%;
-  animation: growBoxDown 0.5s ease forwards;
-  border: 1px solid rgba(0, 0, 0, 0.7);
+  left: 25.5%;
+  top: 147.5%;
+  animation: growBoxDown 0.6s ease forwards;
   border-radius: 2%;
-  filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
-  background-color: #000000;
   overflow: hidden;
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.7);
 }
 
 @keyframes growBoxDown {
@@ -589,8 +584,8 @@ overflow: hidden;
   position: absolute;
   width: 17%;
   height: 17%;
-  left: 29%;
-  top: 30.5%;
+  left: 27%;
+  top: 150.5%;
   border: 1px solid #000000;
   transform-origin: top;
   border-radius: 10px;
@@ -603,18 +598,18 @@ overflow: hidden;
   position: absolute;
   font-family: 'Carme';
   font-weight: 600;
-  font-size: 2.5vh;
-  left: 35%;
-  top: 48.3%;
+  font-size: 3vh;
+  left: 33%;
+  top: 168.3%;
 }
 
 .projectnamethrift.hovered{
   position: absolute;
   font-family: 'Carme';
   font-weight: 600;
-  font-size: 2.5vh;
-  left: 35%;
-  top: 48.3%;
+  font-size: 3vh;
+  left: 33%;
+  top: 168.3%;
   color: white;
 }
 
@@ -623,8 +618,8 @@ overflow: hidden;
   position: absolute;
   width: 5%;
   height: 4%;
-  left: 28%;
-  top: 53%;
+  left: 26%;
+  top: 173%;
   font-weight: 350;
   font-size: 2.6vh;
   text-align: center;
@@ -638,8 +633,8 @@ overflow: hidden;
   position: absolute;
   width: 5%;
   height: 4%;
-  left: 28%;
-  top: 53%;
+  left: 26%;
+  top: 173%;
   font-weight: 600;
   font-size: 2.7vh;
   text-align: center;
@@ -653,8 +648,8 @@ overflow: hidden;
   position: absolute;
   width: 5%;
   height: 4%;
-  left: 33.5%;
-  top: 53%;
+  left: 31.5%;
+  top: 173%;
   font-weight: 350;
   font-size: 2.6vh;
   text-align: center;
@@ -667,8 +662,8 @@ overflow: hidden;
   position: absolute;
   width: 5%;
   height: 4%;
-  left: 33.5%;
-  top: 53%;
+  left: 31.5%;
+  top: 173%;
   font-weight: 600;
   font-size: 2.7vh;
   text-align: center;
@@ -681,8 +676,8 @@ overflow: hidden;
   position: absolute;
   width: 7%;
   height: 4%;
-  left: 39%;
-  top: 53%;
+  left: 37%;
+  top: 173%;
   font-weight: 350;
   font-size: 2.6vh;
   text-align: center;
@@ -695,8 +690,8 @@ overflow: hidden;
   position: absolute;
   width: 7%;
   height: 4%;
-  left: 39%;
-  top: 53%;
+  left: 37%;
+  top: 173%;
   font-weight: 600;
   font-size: 2.7vh;
   text-align: center;
@@ -709,8 +704,8 @@ overflow: hidden;
   position: absolute;
   width: 7%;
   height: 4%;
-  left: 28%;
-  top: 57.5%;
+  left: 26%;
+  top: 177.5%;
   font-weight: 350;
   font-size: 2.6vh;
   text-align: center;
@@ -723,8 +718,8 @@ overflow: hidden;
   position: absolute;
   width: 7%;
   height: 4%;
-  left: 28%;
-  top: 57.5%;
+  left: 26%;
+  top: 177.5%;
   font-weight: 600;
   font-size: 2.7vh;
   text-align: center;
@@ -737,8 +732,8 @@ overflow: hidden;
   position: absolute;
   width: 11.5%;
   height: 4%;
-  left: 35.5%;
-  top: 57.5%;
+  left: 33.5%;
+  top: 177.5%;
   font-weight: 350;
   font-size: 2.6vh;
   text-align: center;
@@ -751,8 +746,8 @@ overflow: hidden;
   position: absolute;
   width: 11.5%;
   height: 4%;
-  left: 35.5%;
-  top: 57.5%;
+  left: 33.5%;
+  top: 177.5%;
   font-weight: 600;
   font-size: 2.65vh;
   text-align: center;
@@ -766,8 +761,8 @@ overflow: hidden;
   position: absolute;
   width: 5%;
   height: 4%;
-  left: 28%;
-  top: 62%;
+  left: 26%;
+  top: 182%;
   font-weight: 350;
   font-size: 2.6vh;
   text-align: center;
@@ -782,8 +777,8 @@ overflow: hidden;
   position: absolute;
   width: 5%;
   height: 4%;
-  left: 28%;
-  top: 62%;
+  left: 26%;
+  top: 182%;
   font-weight: 600;
   font-size: 2.7vh;
   text-align: center;
@@ -798,8 +793,8 @@ overflow: hidden;
   position: absolute;
   width: 5.5%;
   height: 4%;
-  left: 33.5%;
-  top: 62%;
+  left: 31.5%;
+  top: 182%;
   font-weight: 350;
   font-size: 2.6vh;
   text-align: center;
@@ -813,8 +808,8 @@ overflow: hidden;
   position: absolute;
   width: 5.5%;
   height: 4%;
-  left: 33.5%;
-  top: 62%;
+  left: 31.5%;
+  top: 182%;
   font-weight: 600;
   font-size: 2.7vh;
   text-align: center;
@@ -828,8 +823,8 @@ overflow: hidden;
   position: absolute;
   width: 4.5%;
   height: 4%;
-  left: 39.5%;
-  top: 62%;
+  left: 37.5%;
+  top: 182%;
   font-weight: 350;
   font-size: 2.7vh;
   text-align: center;
@@ -843,8 +838,8 @@ overflow: hidden;
   position: absolute;
   width: 4.5%;
   height: 4%;
-  left: 39.5%;
-  top: 62%;
+  left: 37.5%;
+  top: 182%;
   font-weight: 600;
   font-size: 2.7vh;
   text-align: center;
@@ -857,13 +852,13 @@ overflow: hidden;
   position: absolute;
   width: 17%;
   height: 17%;
-  top: 30.5%;
-  left: 29%;
+  top: 150.5%;
+  left: 27%;
   border-radius: 10px;
   overflow: hidden;
 }
 
-.check{
+.check.hovered{
   position: absolute;
   top: 70%;
   left: 27.5%;
@@ -875,32 +870,3 @@ overflow: hidden;
   overflow: hidden;
 }
 
-.sideline1{
-  width: 1.5%;
-  top: 4.5%;
-  left: 93%;
-  height: 0.2%;
-  background-color: #ffffff;
-  animation: upLine 1.2s ease forwards;
-  position: fixed;
-}
-
-.sideline2{
-  width: 1.5%;
-  top: 5.7%;
-  left: 93%;
-  height: 0.2%;
-  background-color: #ffffff;
-  animation: upLine 1.2s ease forwards;
-  position: fixed;
-}
-
-.sideline3{
-  width: 1.5%;
-  top: 6.9%;
-  left: 93%;
-  height: 0.2%;
-  background-color: #ffffff;
-  animation: upLine 1.2s ease forwards;
-  position: fixed;
-}
