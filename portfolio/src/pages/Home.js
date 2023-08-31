@@ -7,11 +7,13 @@ import linkedinlogo from './homeimages/linkedin.svg'
 import emailicon from './homeimages/emailicon.svg'
 import ThemeSong from "./themesong";
 import thriftaidphoto from "./projectimages/thriftaidphoto.png"
+import AnimateHeight from 'react-animate-height';
 
 export default function HomePage() {
     const navigate= useNavigate();
     const [isHovered, setIsHovered] = useState(false);
     const [isOpen, setOpen] = useState(false)
+    const [isExpanded, setIsExpanded] = useState(false);
 
     const handleHover = () => {
       setIsHovered(true);
@@ -20,6 +22,8 @@ export default function HomePage() {
   const handleMouseLeave = () => {
       setIsHovered(false);
   };
+
+  
 
     return(
       <div>
@@ -103,11 +107,7 @@ export default function HomePage() {
             </Link>
             <ThemeSong />
             <div className="projectheader">Projects</div>
-            <div
-                className="thriftaidproject"
-                onMouseEnter={handleHover}
-                onMouseLeave={handleMouseLeave}
-            >
+            <div className="thriftaidproject" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}>
                 <div className={`thriftaidbox ${isHovered ? 'hovered' : ''}`}>
                 </div>
                 <img src={thriftaidphoto} alt='project image' className="thriftaidphoto" />
