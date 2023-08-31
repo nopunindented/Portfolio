@@ -555,7 +555,6 @@ code {
   box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3);
 }
 
-
 .thriftaidbox.hovered {
   /* Your styles for the hover effect */
   box-sizing: border-box;
@@ -858,15 +857,9 @@ code {
   overflow: hidden;
 }
 
-.check.hovered{
-  position: absolute;
-  top: 190%;
-  left: 27.5%;
-  width: 20vw;
-  height: 40%;
+.check{
+  position: relative;
+  top: 220%;
+  color: white;
   font-size: 2vh;
-  color: #ffffff;
-  text-align: center;
-  overflow: hidden;
 }
-

@@ -12,16 +12,25 @@ import AnimateHeight from 'react-animate-height';
 export default function HomePage() {
     const navigate= useNavigate();
     const [isHovered, setIsHovered] = useState(false);
-    const [isOpen, setOpen] = useState(false)
     const [isExpanded, setIsExpanded] = useState(false);
+    const [isAnimating, setIsAnimating] = useState(false);
+    
 
     const handleHover = () => {
       setIsHovered(true);
-  };
+     };
 
-  const handleMouseLeave = () => {
+    const handleMouseLeave = () => {
       setIsHovered(false);
-  };
+    };
+
+    const handleAnimationStart = () => {
+        setIsAnimating(true);
+      };
+    
+      const handleAnimationEnd = () => {
+        setIsAnimating(false);
+      };
 
   
 
@@ -109,6 +118,14 @@ export default function HomePage() {
             <div className="projectheader">Projects</div>
             <div className="thriftaidproject" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}>
                 <div className={`thriftaidbox ${isHovered ? 'hovered' : ''}`}>
+                <AnimateHeight
+                    duration={isAnimating ? 0 : 1000}
+                    height={isHovered ? 'auto' : 0}
+                    onAnimationStart={handleAnimationStart}
+                    onAnimationEnd={handleAnimationEnd}>
+                    <h1 className="check">ThriftAid is a platform that links homeless shelters with thrift. Thrift stores can donate 
+                    excess stock by creating postings which homeless shelters may choose to accept.</h1>
+                </AnimateHeight>
                 </div>
                 <img src={thriftaidphoto} alt='project image' className="thriftaidphoto" />
                 <div className="thriftaidboxsecondary" />
@@ -121,8 +138,6 @@ export default function HomePage() {
                 <div className={`reduxskillthrift ${isHovered ? 'hovered' : ''}`}>Redux</div>
                 <div className={`expressskillthrift ${isHovered ? 'hovered' : ''}`}>Express</div>
                 <div className={`awsskillthrift ${isHovered ? 'hovered' : ''}`}>AWS</div>
-                <h1 className={`check ${isHovered ? 'hovered' : ''}`}>ThriftAid is a platform that links homeless shelters with thrift. Thrift stores can donate 
-                    excess stock by creating postings which homeless shelters may choose to accept.</h1>
             </div>
         </div>
     )
