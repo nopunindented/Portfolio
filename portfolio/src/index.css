@@ -859,7 +859,7 @@ code {
 
 .check{
   position: relative;
-  top: 220%;
+  top: 10%;
   color: white;
   font-size: 2vh;
 }
