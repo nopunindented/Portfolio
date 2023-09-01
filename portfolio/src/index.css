@@ -540,7 +540,7 @@ code {
 }
 
 .thriftaidproject{
-  overflow: hidden;
+  height: 109%;
 }
 
 .thriftaidbox {
@@ -858,7 +858,6 @@ code {
 }
 
 .thriftaidboxcopy {
-  box-sizing: border-box;
   position: absolute;
   width: 20%;
   height: 105%;
@@ -869,9 +868,14 @@ code {
 }
 
 .check{
-  position: relative;
-  top: 30vh;
+  position: absolute;
+  top: 50%;
   color: white;
   font-size: 2vh;
   width: 10vw;
+}
+
+.checktest{
+  margin-top: 100%;
+  font-size: 2vh;
 }
