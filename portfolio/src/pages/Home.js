@@ -118,17 +118,17 @@ export default function HomePage() {
             <div className="projectheader">Projects</div>
             <div className="thriftaidproject" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}>
                 <div className={`thriftaidbox ${isHovered ? 'hovered' : ''}`}>
+                </div>
+                <div className="thriftaidboxcopy">
                 <AnimateHeight
                 duration={isAnimating ? 0 : 500}
                 height={isHovered ? 'auto' : 0}
                 onAnimationStart={handleAnimationStart}
                 onAnimationEnd={handleAnimationEnd}
                 >
-                {isHovered && (
                     <h1 className="check">ThriftAid is a platform that links homeless shelters with thrift. Thrift stores can donate 
                     excess stock by creating postings which homeless shelters may choose to accept.</h1>
-                )}
-                </AnimateHeight>
+                </AnimateHeight> 
                 </div>
                 <img src={thriftaidphoto} alt='project image' className="thriftaidphoto" />
                 <div className="thriftaidboxsecondary" />
