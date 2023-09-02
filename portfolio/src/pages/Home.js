@@ -122,7 +122,7 @@ export default function HomePage() {
                 <div className={`thriftaidbox ${isHovered ? 'hovered' : ''}`}/>
                 <div className={`thriftaidboxcopy ${isHovered ? 'hovered' : ''}`}>
                   <AnimateHeight
-                    duration={isAnimating ? 0 : 700}
+                    duration={isAnimating ? 0 : 500}
                     height={isHovered ? 'auto' : 0}
                     onAnimationStart={handleAnimationStart}
                     onAnimationEnd={handleAnimationEnd}
