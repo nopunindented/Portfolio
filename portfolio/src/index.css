@@ -867,15 +867,23 @@ code {
   overflow: hidden;
 }
 
-.check{
-  position: absolute;
-  top: 50%;
+.checktest{
+  font-family: 'Carme';
+  margin-top: 100%;
+  font-size: 2.3vh;
+  width: 17vw;
+  margin-left: 8%;
   color: white;
-  font-size: 2vh;
-  width: 10vw;
+  text-align: center;
 }
 
-.checktest{
-  margin-top: 100%;
-  font-size: 2vh;
+.linkiconcirclethrift{
+  position: relative;
+  margin-top: 150%;
+  margin-left: 35%;
+  width: 2vw;
+  height: 5vh;
+  background-color: #151515;
+  border-radius: 50%;
+  box-shadow: 2px 2px 12px rgba(22, 22, 22, 2);
 }

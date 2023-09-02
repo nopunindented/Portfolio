@@ -120,14 +120,30 @@ export default function HomePage() {
                 <div className={`thriftaidbox ${isHovered ? 'hovered' : ''}`}/>
                 <div className={`thriftaidboxcopy ${isHovered ? 'hovered' : ''}`}>
                 <AnimateHeight
-                duration={isAnimating ? 0 : 500}
+                duration={isAnimating ? 0 : 300}
                 height={isHovered ? 'auto' : 0}
                 onAnimationStart={handleAnimationStart}
                 onAnimationEnd={handleAnimationEnd}
-                >{isHovered &&
+                >{isHovered && (
+                  <div>
                     <h1 className="checktest">ThriftAid is a platform that links homeless shelters with thrift. Thrift stores can donate 
-                    excess stock by creating postings which homeless shelters may choose to accept.</h1>}
+                    excess stock by creating postings which homeless shelters may choose to accept.</h1>
+                  </div>
+                )}
+                {isHovered && (
+                    <div className="linkiconcirclethrift" />
+                )}
                 </AnimateHeight> 
+                <AnimateHeight
+                duration={isAnimating ? 0 : 300}
+                height={isHovered ? 'auto' : 0}
+                onAnimationStart={handleAnimationStart}
+                onAnimationEnd={handleAnimationEnd}
+                >
+                {isHovered && (
+                    <div className="linkiconcirclethrift" />
+                )}
+                </AnimateHeight>
                 </div>
                 <img src={thriftaidphoto} alt='project image' className="thriftaidphoto" />
                 <div className="thriftaidboxsecondary" />
@@ -136,7 +152,7 @@ export default function HomePage() {
                 <div className={`nodeskillthrift ${isHovered ? 'hovered' : ''}`}>Node.js</div>
                 <div className={`typescriptskillthrift ${isHovered ? 'hovered' : ''}`}>TypeScript</div>
                 <div className={`mongodbskillthrift ${isHovered ? 'hovered' : ''}`}>MongoDB</div>
-                <div className={`jwtauthskillthrift ${isHovered ? 'hovered' : ''}`}>JWT Authentication</div>
+                <div className={`jwtauthskillthrift ${isHovered ? 'hovered' : ''}`}>JWT Auth</div>
                 <div className={`reduxskillthrift ${isHovered ? 'hovered' : ''}`}>Redux</div>
                 <div className={`expressskillthrift ${isHovered ? 'hovered' : ''}`}>Express</div>
                 <div className={`awsskillthrift ${isHovered ? 'hovered' : ''}`}>AWS</div>
