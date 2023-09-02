@@ -8,6 +8,8 @@ import emailicon from './homeimages/emailicon.svg'
 import ThemeSong from "./themesong";
 import thriftaidphoto from "./projectimages/thriftaidphoto.png"
 import AnimateHeight from 'react-animate-height';
+import linkicon from './projectimages/linkicon.png'
+
 
 export default function HomePage() {
     const navigate= useNavigate();
@@ -119,31 +121,24 @@ export default function HomePage() {
             <div className="thriftaidproject" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}>
                 <div className={`thriftaidbox ${isHovered ? 'hovered' : ''}`}/>
                 <div className={`thriftaidboxcopy ${isHovered ? 'hovered' : ''}`}>
-                <AnimateHeight
-                duration={isAnimating ? 0 : 300}
-                height={isHovered ? 'auto' : 0}
-                onAnimationStart={handleAnimationStart}
-                onAnimationEnd={handleAnimationEnd}
-                >{isHovered && (
-                  <div>
-                    <h1 className="checktest">ThriftAid is a platform that links homeless shelters with thrift. Thrift stores can donate 
-                    excess stock by creating postings which homeless shelters may choose to accept.</h1>
-                  </div>
-                )}
-                {isHovered && (
-                    <div className="linkiconcirclethrift" />
-                )}
-                </AnimateHeight> 
-                <AnimateHeight
-                duration={isAnimating ? 0 : 300}
-                height={isHovered ? 'auto' : 0}
-                onAnimationStart={handleAnimationStart}
-                onAnimationEnd={handleAnimationEnd}
-                >
-                {isHovered && (
-                    <div className="linkiconcirclethrift" />
-                )}
-                </AnimateHeight>
+                  <AnimateHeight
+                    duration={isAnimating ? 0 : 700}
+                    height={isHovered ? 'auto' : 0}
+                    onAnimationStart={handleAnimationStart}
+                    onAnimationEnd={handleAnimationEnd}
+                  >
+                    {isHovered && (
+                      <div>
+                        <h1 className="checktest">ThriftAid is a platform that links homeless shelters with thrift. Thrift stores can donate 
+                        excess stock by creating postings which homeless shelters may choose to accept.</h1>
+                        <div className="linkiconcirclethrift">
+                        <Link to="https://github.com/nopunindented/ThriftAid">
+                          <img src={linkicon} alt="thiftlinkicon" className="linkiconthrift"/>
+                          </Link>
+                          </div>
+                      </div>
+                    )}
+                  </AnimateHeight>
                 </div>
                 <img src={thriftaidphoto} alt='project image' className="thriftaidphoto" />
                 <div className="thriftaidboxsecondary" />
