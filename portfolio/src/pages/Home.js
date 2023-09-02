@@ -10,6 +10,7 @@ import thriftaidphoto from "./projectimages/thriftaidphoto.png"
 import AnimateHeight from 'react-animate-height';
 import linkicon from './projectimages/linkicon.png'
 import ThriftAidProject from "../projects/thriftaidproject";
+import AlbertaloopProject from "../projects/albertaloop";
 
 export default function HomePage() {
     const navigate= useNavigate();
@@ -117,6 +118,7 @@ export default function HomePage() {
             </Link>
             <ThemeSong />
             <ThriftAidProject />
+            <AlbertaloopProject />
             </div>
     )
 }
