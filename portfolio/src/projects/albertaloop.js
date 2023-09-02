@@ -42,7 +42,7 @@ export default function AlbertaloopProject() {
                   >
                     {isHovered && (
                       <div>
-                        <h1 className="checktestalbertaloop">ThriftAid is a platform that links homeless shelters with thrift. Thrift stores can donate 
+                        <h1 className="checktestalbertaloop">Albertaloop is a platform that links homeless shelters with thrift. Thrift stores can donate 
                         excess stock by creating postings which homeless shelters may choose to accept.</h1>
                         <div className="linkiconcirclealbertaloop">
                         <Link to="https://github.com/nopunindented/ThriftAid">
@@ -56,14 +56,10 @@ export default function AlbertaloopProject() {
                 <img src={albertaloopphoto} alt='project image' className="albertaloopphoto" />
                 <div className="albertaloopboxsecondary" />
                 <div className={`projectnamealbertaloop ${isHovered ? 'hovered' : ''}`}>Albertaloop</div>
-                <div className={`reactskillalbertaloop ${isHovered ? 'hovered' : ''}`}>React</div>
-                <div className={`nodeskillalbertaloop ${isHovered ? 'hovered' : ''}`}>Node.js</div>
-                <div className={`typescriptskillalbertaloop ${isHovered ? 'hovered' : ''}`}>TypeScript</div>
-                <div className={`mongodbskillalbertaloop ${isHovered ? 'hovered' : ''}`}>MongoDB</div>
-                <div className={`jwtauthskillalbertaloop ${isHovered ? 'hovered' : ''}`}>JWT Auth</div>
-                <div className={`reduxskillalbertaloop ${isHovered ? 'hovered' : ''}`}>Redux</div>
-                <div className={`expressskillalbertaloop ${isHovered ? 'hovered' : ''}`}>Express</div>
-                <div className={`awsskillalbertaloop ${isHovered ? 'hovered' : ''}`}>AWS</div>
+                <div className={`reactskillalbertaloop ${isHovered ? 'hovered' : ''}`}>C++</div>
+                <div className={`nodeskillalbertaloop ${isHovered ? 'hovered' : ''}`}>PyQt</div>
+                <div className={`typescriptskillalbertaloop ${isHovered ? 'hovered' : ''}`}>Python</div>
+                <div className={`jwtauthskillalbertaloop ${isHovered ? 'hovered' : ''}`}>UDP Protocol</div>
             </div>
         </div>
     )
