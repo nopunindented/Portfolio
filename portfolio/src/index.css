@@ -535,6 +535,24 @@ code {
   }
 }
 
+.projectsectionheader{
+  position: absolute;
+  font-size: 8vh;
+  font-family: 'Capriola';
+  color: #ffffff;
+  top: 115%;
+  left: 10%;
+
+  background: linear-gradient(80.17deg, #FFFFFF 25.44%, rgba(255, 255, 255, 0) 110.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -3px;
+
+}
+
+
+
 .projectspage{
   overflow: hidden;
 }

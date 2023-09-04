@@ -117,6 +117,7 @@ export default function HomePage() {
             </Zoom>
             </Link>
             <ThemeSong />
+            <div className="projectsectionheader">Projects</div>
             <ThriftAidProject />
             <AlbertaloopProject />
             </div>
