@@ -42,8 +42,8 @@ export default function AlbertaloopProject() {
                   >
                     {isHovered && (
                       <div>
-                        <h1 className="checktestalbertaloop">Albertaloop is a platform that links homeless shelters with thrift. Thrift stores can donate 
-                        excess stock by creating postings which homeless shelters may choose to accept.</h1>
+                        <h1 className="checktestalbertaloop">Albertaloop is a version of the hyperloop concept, created at the University of Alberta.
+                        It consists of a pod that is levitated inside of a vacuum tube.</h1>
                         <div className="linkiconcirclealbertaloop">
                         <Link to="https://github.com/nopunindented/ThriftAid">
                           <img src={linkicon} alt="thiftlinkicon" className="linkiconalbertaloop"/>
