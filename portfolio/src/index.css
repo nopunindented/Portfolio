@@ -573,6 +573,20 @@ code {
   box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3);
 }
 
+@media (max-width: 1440px){
+  .thriftaidbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 22%;
+    height: 39%;
+    left: 25.5%;
+    top: 147.5%;
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3);
+  }
+}
+
 .thriftaidbox.hovered {
   /* Your styles for the hover effect */
   box-sizing: border-box;
@@ -585,6 +599,22 @@ code {
   border-radius: 2%;
   overflow: hidden;
   box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 1440px){
+  .thriftaidbox.hovered {
+    /* Your styles for the hover effect */
+    box-sizing: border-box;
+    position: absolute;
+    width: 22%;
+    height: 39%;
+    left: 25.5%;
+    top: 147.5%;
+    animation: growBoxDown 0.6s ease forwards;
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.7);
+  }
 }
 
 @keyframes growBoxDown {
@@ -607,9 +637,23 @@ code {
   transform-origin: top;
   border-radius: 10px;
   overflow: hidden;
-
 }
 
+@media (max-width: 1440px){
+  .thriftaidboxsecondary{
+    /* Rectangle 6 */
+  box-sizing: border-box;
+  position: absolute;
+  width: 19%;
+  height: 17%;
+  left: 27%;
+  top: 150.5%;
+  border: 1px solid #000000;
+  transform-origin: top;
+  border-radius: 10px;
+  overflow: hidden;
+}
+}
 
 .projectnamethrift{
   position: absolute;
@@ -620,6 +664,18 @@ code {
   top: 168.3%;
 }
 
+@media (max-width: 1440px){
+  .projectnamethrift{
+    position: absolute;
+    font-family: 'Carme';
+    font-weight: 600;
+    font-size: 3.2vh;
+    left: 32.5%;
+    top: 168.3%;
+  }
+}
+
+
 .projectnamethrift.hovered{
   position: absolute;
   font-family: 'Carme';
@@ -628,6 +684,18 @@ code {
   left: 33%;
   top: 168.3%;
   color: white;
+}
+
+@media (max-width: 1440px){
+  .projectnamethrift.hovered{
+    position: absolute;
+    font-family: 'Carme';
+    font-weight: 600;
+    font-size: 3.2vh;
+    left: 32.5%;
+    top: 168.3%;
+    color: white;
+  }
 }
 
 .reactskillthrift{
