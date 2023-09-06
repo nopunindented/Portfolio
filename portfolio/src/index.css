@@ -743,6 +743,22 @@ code {
   border-radius: 5px;
 }
 
+@media (max-width: 1440px){
+  .nodeskillthrift{
+    position: absolute;
+    width: 6%;
+    height: 4%;
+    left: 31.5%;
+    top: 173%;
+    font-weight: 350;
+    font-size: 2.6vh;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 5px;
+  }
+}
+
 .nodeskillthrift.hovered{
   position: absolute;
   width: 5%;
@@ -755,6 +771,22 @@ code {
   color: #000000;
   background: #ffffff;
   border-radius: 5px;
+}
+
+@media (max-width: 1440px){
+  .nodeskillthrift.hovered{
+    position: absolute;
+    width: 6%;
+    height: 4%;
+    left: 31.5%;
+    top: 173%;
+    font-weight: 600;
+    font-size: 2.7vh;
+    text-align: center;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+  }
 }
 
 .typescriptskillthrift{
@@ -771,6 +803,22 @@ code {
   border-radius: 5px;
 }
 
+@media (max-width: 1440px){
+  .typescriptskillthrift{
+    position: absolute;
+    width: 8%;
+    height: 4%;
+    left: 38%;
+    top: 173%;
+    font-weight: 350;
+    font-size: 2.6vh;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 5px;
+  }
+}
+
 .typescriptskillthrift.hovered{
   position: absolute;
   width: 7%;
@@ -785,6 +833,22 @@ code {
   border-radius: 5px;
 }
 
+@media (max-width: 1440px){
+  .typescriptskillthrift.hovered{
+    position: absolute;
+    width: 8%;
+    height: 4%;
+    left: 38%;
+    top: 173%;
+    font-weight: 600;
+    font-size: 2.7vh;
+    text-align: center;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+  }
+}
+
 .mongodbskillthrift{
   position: absolute;
   width: 7%;
@@ -797,6 +861,22 @@ code {
   color: #ffffff;
   background: #000000;
   border-radius: 5px;
+}
+
+@media (max-width: 1440px){
+  .mongodbskillthrift{
+    position: absolute;
+    width: 7.5%;
+    height: 4%;
+    left: 26%;
+    top: 177.5%;
+    font-weight: 350;
+    font-size: 2.6vh;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 5px;
+  }
 }
 
 .mongodbskillthrift.hovered{
@@ -827,6 +907,22 @@ code {
   border-radius: 5px;
 }
 
+@media (max-width: 1440px){
+  .jwtauthskillthrift{
+    position: absolute;
+    width: 11.5%;
+    height: 4%;
+    left: 34%;
+    top: 177.5%;
+    font-weight: 350;
+    font-size: 2.6vh;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 5px;
+  }
+}
+
 .jwtauthskillthrift.hovered{
   position: absolute;
   width: 11.5%;
@@ -839,6 +935,22 @@ code {
   color: #000000;
   background: #ffffff;
   border-radius: 5px;
+}
+
+@media (max-width: 1440px){
+  .jwtauthskillthrift.hovered{
+    position: absolute;
+    width: 11.5%;
+    height: 4%;
+    left: 34%;
+    top: 177.5%;
+    font-weight: 600;
+    font-size: 2.65vh;
+    text-align: center;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+  }
 }
 
 .reduxskillthrift{
