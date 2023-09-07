@@ -958,7 +958,7 @@ code {
     position: absolute;
     width: 11.5%;
     height: 4%;
-    left: 33.5%;
+    left: 34%;
     top: 177.5%;
     font-weight: 600;
     font-size: 2.6vh;
@@ -1238,6 +1238,20 @@ code {
   box-shadow: 0px 0px 12px rgba(22, 22, 22, 20);
 }
 
+
+@media (max-width: 1440px){
+  .linkiconcirclethrift{
+    position: relative;
+    margin-top: 9.5%;
+    margin-left: 45%;
+    width: 3vw;
+    height: 5.5vh;
+    background-color: #101010;
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px rgba(22, 22, 22, 20);
+  }
+}
+
 .linkiconthrift{
   position: absolute;
   margin-top: 23%;
@@ -1245,6 +1259,17 @@ code {
   width: 1.2vw;
   height: 3vh;
   box-shadow: 0px 0px 12px rgba(22, 22, 22, 100);
+}
+
+@media (max-width: 1440px){
+  .linkiconthrift{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 28%;
+    width: 1.4vw;
+    height: 3vh;
+    box-shadow: 0px 0px 12px rgba(22, 22, 22, 100);
+  }
 }
 
 /*albertaloop project after */
@@ -1679,7 +1704,7 @@ code {
 
 .checktestalbertaloop{
   font-family: 'Carme';
-  margin-top: 86%;
+  margin-top: 92%;
   font-size: 2.3vh;
   width: 17vw;
   margin-left: 8%;
