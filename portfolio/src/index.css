@@ -594,9 +594,9 @@ code {
   .thriftaidbox {
     box-sizing: border-box;
     position: absolute;
-    width: 26%;
+    width: 30%;
     height: 39%;
-    left: 18.5%;
+    left: 17.5%;
     top: 147.5%;
     border-radius: 2%;
     overflow: hidden;
@@ -646,9 +646,9 @@ code {
     /* Your styles for the hover effect */
     box-sizing: border-box;
     position: absolute;
-    width: 26%;
+    width: 30%;
     height: 39%;
-    left: 18.5%;
+    left: 17.5%;
     top: 147.5%;
     animation: growBoxDown 0.6s ease forwards;
     border-radius: 2%;
@@ -692,9 +692,9 @@ code {
     /* Rectangle 6 */
   box-sizing: border-box;
   position: absolute;
-  width: 23.2%;
+  width: 27%;
   height: 17%;
-  left: 20%;
+  left: 19%;
   top: 150.5%;
   border: 1px solid #000000;
   transform-origin: top;
@@ -729,7 +729,7 @@ code {
     font-family: 'Carme';
     font-weight: 600;
     font-size: 3.2vh;
-    left: 26.5%;
+    left: 27.5%;
     top: 168.3%;
   }
 }
@@ -765,7 +765,7 @@ code {
     font-family: 'Carme';
     font-weight: 600;
     font-size: 3.2vh;
-    left: 26.5%;
+    left: 25.5%;
     top: 168.3%;
     color: white;
   }
@@ -786,6 +786,23 @@ code {
   border-radius: 5px;
 }
 
+@media (max-width: 768px){
+  .reactskillthrift{
+    /* Rectangle 9 */
+    position: absolute;
+    width: 7%;
+    height: 4%;
+    left: 18.5%;
+    top: 173%;
+    font-weight: 350;
+    font-size: 2.6vh;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 5px;
+  }
+}
+
 .reactskillthrift.hovered{
   /* Rectangle 9 */
   position: absolute;
@@ -802,6 +819,24 @@ code {
 
 }
 
+@media (max-width: 768px){
+  .reactskillthrift.hovered{
+    /* Rectangle 9 */
+    position: absolute;
+    width: 7%;
+    height: 4%;
+    left: 18.5%;
+    top: 173%;
+    font-weight: 600;
+    font-size: 2.7vh;
+    text-align: center;
+    color: black;
+    background: white;
+    border-radius: 5px;
+  
+  }
+}
+
 .nodeskillthrift{
   position: absolute;
   width: 5%;
@@ -816,12 +851,30 @@ code {
   border-radius: 5px;
 }
 
+
+
 @media (max-width: 1440px){
   .nodeskillthrift{
     position: absolute;
     width: 6%;
     height: 4%;
     left: 31.5%;
+    top: 173%;
+    font-weight: 350;
+    font-size: 2.6vh;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 768px){
+  .nodeskillthrift{
+    position: absolute;
+    width: 8.5%;
+    height: 4%;
+    left: 26.2%;
     top: 173%;
     font-weight: 350;
     font-size: 2.6vh;
@@ -862,6 +915,22 @@ code {
   }
 }
 
+@media (max-width: 768px){
+  .nodeskillthrift.hovered{
+    position: absolute;
+    width: 8.5%;
+    height: 4%;
+    left: 26.2%;
+    top: 173%;
+    font-weight: 600;
+    font-size: 2.7vh;
+    text-align: center;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+  }
+}
+
 .typescriptskillthrift{
   position: absolute;
   width: 7%;
@@ -882,6 +951,22 @@ code {
     width: 8%;
     height: 4%;
     left: 38%;
+    top: 173%;
+    font-weight: 350;
+    font-size: 2.6vh;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 768px){
+  .typescriptskillthrift{
+    position: absolute;
+    width: 11%;
+    height: 4%;
+    left: 35.5%;
     top: 173%;
     font-weight: 350;
     font-size: 2.6vh;
