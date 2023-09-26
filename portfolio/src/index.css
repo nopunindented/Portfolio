@@ -1006,6 +1006,22 @@ code {
   }
 }
 
+@media (max-width: 768px){
+  .typescriptskillthrift.hovered{
+    position: absolute;
+    width: 11%;
+    height: 4%;
+    left: 35.5%;
+    top: 173%;
+    font-weight: 600;
+    font-size: 2.7vh;
+    text-align: center;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+  }
+}
+
 .mongodbskillthrift{
   position: absolute;
   width: 7%;
@@ -1026,6 +1042,22 @@ code {
     width: 7.5%;
     height: 4%;
     left: 26%;
+    top: 177.5%;
+    font-weight: 350;
+    font-size: 2.6vh;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 768px){
+  .mongodbskillthrift{
+    position: absolute;
+    width: 11%;
+    height: 4%;
+    left: 18.6%;
     top: 177.5%;
     font-weight: 350;
     font-size: 2.6vh;
@@ -1066,6 +1098,22 @@ code {
 }
 }
 
+@media (max-width: 768px){
+  .mongodbskillthrift.hovered{
+    position: absolute;
+    width: 11%;
+    height: 4%;
+    left: 18.6%;
+    top: 177.5%;
+    font-weight: 600;
+    font-size: 2.7vh;
+    text-align: center;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+  }
+}
+
 .jwtauthskillthrift{
   position: absolute;
   width: 11.5%;
@@ -1086,6 +1134,22 @@ code {
     width: 11.5%;
     height: 4%;
     left: 34%;
+    top: 177.5%;
+    font-weight: 350;
+    font-size: 2.6vh;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 768px){
+  .jwtauthskillthrift{
+    position: absolute;
+    width: 13.5%;
+    height: 4%;
+    left: 30.4%;
     top: 177.5%;
     font-weight: 350;
     font-size: 2.6vh;
@@ -1126,6 +1190,22 @@ code {
 }
 }
 
+@media (max-width: 768px){
+  .jwtauthskillthrift.hovered{
+    position: absolute;
+    width: 13.5%;
+    height: 4%;
+    left: 30.4%;
+    top: 177.5%;
+    font-weight: 600;
+    font-size: 2.6vh;
+    text-align: center;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+}
+}
+
 .reduxskillthrift{
   /* Rectangle 9 */
   position: absolute;
@@ -1148,6 +1228,23 @@ code {
     width: 5.5%;
     height: 4%;
     left: 26%;
+    top: 182%;
+    font-weight: 350;
+    font-size: 2.6vh;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 5px;
+}
+}
+
+@media (max-width: 768px){
+  .reduxskillthrift{
+    /* Rectangle 9 */
+    position: absolute;
+    width: 7.5%;
+    height: 4%;
+    left: 18.7%;
     top: 182%;
     font-weight: 350;
     font-size: 2.6vh;
@@ -1192,6 +1289,23 @@ code {
 }
 }
 
+@media (max-width: 768px){
+  .reduxskillthrift.hovered{
+    /* Rectangle 9 */
+    position: absolute;
+    width: 7.5%;
+    height: 4%;
+    left: 18.7%;
+    top: 182%;
+    font-weight: 600;
+    font-size: 2.7vh;
+    text-align: center;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+  }
+}
+
 .expressskillthrift{
   /* Rectangle 9 */
   position: absolute;
@@ -1222,6 +1336,23 @@ code {
   background: #000000;
   border-radius: 5px;
 }
+}
+
+@media (max-width: 768px){
+  .expressskillthrift{
+    /* Rectangle 9 */
+    position: absolute;
+    width: 8.5%;
+    height: 4%;
+    left: 27.1%;
+    top: 182%;
+    font-weight: 350;
+    font-size: 2.6vh;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 5px;
+  }
 }
 
 .expressskillthrift.hovered{
