@@ -746,7 +746,6 @@ code {
 }
 
 
-
 @media (max-width: 1440px){
   .projectnamethrift.hovered{
     position: absolute;
@@ -765,7 +764,7 @@ code {
     font-family: 'Carme';
     font-weight: 600;
     font-size: 3.2vh;
-    left: 25.5%;
+    left: 27.5%;
     top: 168.3%;
     color: white;
   }
@@ -1346,10 +1345,10 @@ code {
 @media (max-width: 768px){
   .thriftaidphoto{
     position: absolute;
-    width: 23.2%;
+    width: 27%;
     height: 17%;
     top: 150.5%;
-    left: 20%;
+    left: 19%;
     border-radius: 10px;
     overflow: hidden;
   }
