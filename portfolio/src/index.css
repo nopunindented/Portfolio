@@ -589,6 +589,21 @@ code {
   }
 }
 
+/*shifted elements left by 7% and increase width by 2%*/
+@media (max-width: 768px){
+  .thriftaidbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 24%;
+    height: 39%;
+    left: 18.5%;
+    top: 147.5%;
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3);
+  }
+}
+
 .thriftaidbox.hovered {
   /* Your styles for the hover effect */
   box-sizing: border-box;
@@ -626,6 +641,21 @@ code {
   }
 }
 
+@media (max-width: 768px){
+  .thriftaidbox.hovered {
+    /* Your styles for the hover effect */
+    box-sizing: border-box;
+    position: absolute;
+    width: 24%;
+    height: 39%;
+    left: 18.5%;
+    top: 147.5%;
+    animation: growBoxDown 0.6s ease forwards;
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.7);
+  }
+}
 
 .thriftaidboxsecondary{
     /* Rectangle 6 */
@@ -657,6 +687,22 @@ code {
 }
 }
 
+@media (max-width: 768px){
+  .thriftaidboxsecondary{
+    /* Rectangle 6 */
+  box-sizing: border-box;
+  position: absolute;
+  width: 21.5%;
+  height: 17%;
+  left: 20%;
+  top: 150.5%;
+  border: 1px solid #000000;
+  transform-origin: top;
+  border-radius: 10px;
+  overflow: hidden;
+}
+}
+
 .projectnamethrift{
   position: absolute;
   font-family: 'Carme';
@@ -677,6 +723,17 @@ code {
   }
 }
 
+@media (max-width: 768px){
+  .projectnamethrift{
+    position: absolute;
+    font-family: 'Carme';
+    font-weight: 600;
+    font-size: 3.2vh;
+    left: 25.5%;
+    top: 168.3%;
+  }
+}
+
 
 .projectnamethrift.hovered{
   position: absolute;
@@ -688,6 +745,8 @@ code {
   color: white;
 }
 
+
+
 @media (max-width: 1440px){
   .projectnamethrift.hovered{
     position: absolute;
@@ -695,6 +754,18 @@ code {
     font-weight: 600;
     font-size: 3.2vh;
     left: 32.5%;
+    top: 168.3%;
+    color: white;
+  }
+}
+
+@media (max-width: 768px){
+  .projectnamethrift.hovered{
+    position: absolute;
+    font-family: 'Carme';
+    font-weight: 600;
+    font-size: 3.2vh;
+    left: 25.5%;
     top: 168.3%;
     color: white;
   }
