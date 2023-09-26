@@ -1147,7 +1147,7 @@ code {
 @media (max-width: 768px){
   .jwtauthskillthrift{
     position: absolute;
-    width: 13.5%;
+    width: 15.95%;
     height: 4%;
     left: 30.4%;
     top: 177.5%;
@@ -1387,6 +1387,23 @@ code {
 }
 }
 
+@media (max-width: 768px){
+  .expressskillthrift.hovered{
+    /* Rectangle 9 */
+    position: absolute;
+    width: 8.5%;
+    height: 4%;
+    left: 27.1%;
+    top: 182%;
+    font-weight: 600;
+    font-size: 2.7vh;
+    text-align: center;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+  }
+}
+
 .awsskillthrift{
   /* Rectangle 9 */
   position: absolute;
@@ -1419,6 +1436,23 @@ code {
 }
 }
 
+@media (max-width: 768px){
+  .awsskillthrift{
+    /* Rectangle 9 */
+    position: absolute;
+    width: 6.5%;
+    height: 4%;
+    left: 36.5%;
+    top: 182%;
+    font-weight: 350;
+    font-size: 2.7vh;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 5px;
+  }
+}
+
 .awsskillthrift.hovered{
   /* Rectangle 9 */
   position: absolute;
@@ -1439,6 +1473,23 @@ code {
     /* Rectangle 9 */
     position: absolute;
     width: 4.5%;
+    height: 4%;
+    left: 36.5%;
+    top: 182%;
+    font-weight: 600;
+    font-size: 2.7vh;
+    text-align: center;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 768px){
+  .awsskillthrift.hovered{
+    /* Rectangle 9 */
+    position: absolute;
+    width: 6.5%;
     height: 4%;
     left: 38.5%;
     top: 182%;
